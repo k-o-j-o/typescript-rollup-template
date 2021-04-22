@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon --exec \"ts-node -r tsconfig-paths/register\"",
+    "start": "nodemon --exec \"ts-node -r tsconfig-paths/register\" index.ts",
     "build": "rollup --config"
   },
   "devDependencies": {
